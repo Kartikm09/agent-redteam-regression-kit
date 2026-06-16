@@ -1,0 +1,9 @@
+[project]
+name = "agent-redteam-regression-kit"
+version = "0.1.0"
+description = "Synthetic red-team regression checks for tool-using AI agents"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
